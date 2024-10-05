@@ -16,7 +16,7 @@ def main():
 
     data = get_youtube_data(api_key, channel_ids)
     create_database('youtube', params)
-    # save_data_to_database(data, 'youtube', params)
+    save_data_to_database(data, 'youtube', params)
 
 
 if __name__ == '__main__':
