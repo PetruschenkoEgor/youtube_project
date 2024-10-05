@@ -8,6 +8,8 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 python-dotenv = "^1.0.1"
+build = "^1.2.2"
+google-api-python-client = "^2.147.0"
 
 
 [build-system]
